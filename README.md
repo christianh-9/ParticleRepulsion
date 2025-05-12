@@ -12,10 +12,10 @@ A real-time particle simulation using Raylib, featuring mouse-based repulsion an
 
 1. Ensure [Raylib](https://www.raylib.com/) is installed on your system.
 2. Clone the repository: git clone https://github.com/christianh-9/ParticleRepulsion.git
-3. cd ParticleRepulsion
-   mkdir build && cd build
-   cmake ..
-   make
+3. cd ParticleRepulsion  
+   mkdir build && cd build  
+   cmake ..  
+   make  
 4. ./ParticleRepulsion
 
 
