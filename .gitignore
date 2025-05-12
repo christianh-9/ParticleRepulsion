@@ -1,0 +1,24 @@
+# Ignore CMake build artifacts
+cmake-build-*/
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+
+# CLion/JetBrains IDE configs
+.idea/
+*.iml
+
+# macOS metadata
+.DS_Store
+
+# Backup or temporary files
+*~
+*.log
