@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Tell CMake where to find Raylib (adjust path if necessary)
 find_package(raylib REQUIRED)
 
-add_executable(physics main.cpp)
+add_executable(physics src/main.cpp)
 
 # Link Raylib and required system frameworks on macOS
 target_link_libraries(physics raylib m
